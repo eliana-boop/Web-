@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Animales Vertebrados e Invertebrados</title>
+    <link rel="stylesheet" href="css/ayu.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+ <img src="imagenes/logo.jpg" alt="logo de Animales">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="verificacion.html">Verificación</a></li>
+                <li><a href="inversion.html">Inversión</a></li>
+                <li><a href="exploracion.html">Exploración</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1>Bienvenido al mundo de los animales</h1>
+            <p>Los animales se clasifican en dos grandes grupos: <strong>vertebrados</strong> (con columna vertebral) e <strong>invertebrados</strong> (sin columna vertebral). Esta web te ayudará a conocerlos mejor.</p>
+ <img src="imagenes/vertebrado.jpg" alt="Animal vertebrado">
+    <img src="imagenes/invertebrado.jpg" alt="Animal invertebrado">
+    
+            <p>Los animales vertebrados son aquellos que poseen un esqueleto interno articulado o columna vertebral, la cual funciona como eje principal del cuerpo y protege la médula espinal. Este grupo incluye a los mamíferos, aves, reptiles, anfibios y peces. </p><br><br>
+  <video controls width="300">
+        
+ <source src="nucleo/video.mp4" type="video/mp4">
+             Tu navegador no soporta video.
+            </video>
+
+            
+        </section>
+
+        <section class="tarjetas">
+            <div class="card">🐘 Vertebrados: mamíferos, aves, reptiles...</div>
+            <div class="card">🦋 Invertebrados: insectos, arácnidos, moluscos...</div>
+            <div class="card">🔍 Explora más de 1 millón de especies</div>
+        </section>
+    <main>
+    <section>
+        <h1>Verificación: Vertebrados</h1><br><br>
+        <p>Los vertebrados tienen columna vertebral. Se dividen en:</p><br><br>
+        <ul>
+            <li>Mamíferos</li>
+            <li>Aves</li>
+            <li>Reptiles</li>
+            <li>Anfibios</li>
+            <li>Peces</li>
+        </ul>
+        <img src="imagenes/brado.jpg" alt="Vertebrados">
+    </section>
+
+    <section id="ancla1">
+        <h2>Mamíferos</h2>
+        <p>Ejemplos: perro, gato, ballena.</p><br><br>
+    </section>
+    <section id="ancla2">
+        <h2>Aves</h2>
+        <p>Ejemplos: águila, pingüino.</p>
+    </section>
+    <a href="#ancla1">Ir a Mamíferos</a> |
+    <a href="#ancla2">Ir a Aves</a>
+</main><br><br>
+
+<main>
+    <h1>Invertebrados</h1>
+    <p>No tienen columna vertebral. Ejemplos: insectos, arácnidos, crustáceos, moluscos.</p>
+    <img src="imagenes/verte.jpg" alt="Invertebrados"><br><br>
+
+    <section id="insectos">
+        <h2>Insectos</h2>
+        <p>Hormigas, mariposas, abejas.</p><br><br>
+    </section>
+    <section id="moluscos">
+        <h2>Moluscos</h2>
+        <p>Caracoles, pulpos.</p>
+    </section>
+    <a href="#insectos">Ir a Insectos</a> |
+    <a href="#moluscos">Ir a Moluscos</a><br><br>
+</main>
+
+<main>
+    <h1>Explora la biodiversidad</h1><br><br>
+    <section>
+        <h2>Hábitats</h2>
+        <p>Selva, desierto, océano, montaña.</p><br><br>
+        <img src="imagenes/exploracion.jpg" alt="Exploración">
+    </section>
+    <section>
+        <h2>Especies en peligro</h2>
+        <p>Oso panda, tigre, orangután.</p><br><br>
+    </section>
+
+<main>    
+    
+    
+    <h1>Formulario de contacto</h1>
+    <form action="#" method="post">
+        <label>Nombre (solo letras):</label>
+        <input type="text" pattern="[A-Za-záéíóúÁÉÍÓÚñÑ\s]+" title="Solo letras" required>
+
+        <label>Teléfono (9 dígitos):</label>
+        <input type="text" pattern="[0-9]{9}" title="9 dígitos numéricos" required>
+
+        <label>Email:</label>
+        <input type="email" required>
+
+        <label>País:</label>
+        <select required>
+            <option value="">Selecciona</option>
+            <option>España</option>
+            <option>México</option>
+            <option>Argentina</option>
+        </select>
+
+        <label>Mensaje:</label>
+        <textarea rows="4" required></textarea>
+
+        <label><input type="checkbox" required> Acepto términos</label>
+
+        <button type="submit">Enviar</button>
+    </form>
+</main>
+
+<footer>
+        <p>Síguenos en: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </p>
+        <p>Contacto: info@animales.com</p>
+
+<footer>
+    <a href="#" class="subir">⬆ Subir al inicio</a>
+</footer>
+
+</body>
+</html>
